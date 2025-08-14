@@ -1,10 +1,4 @@
-import {
-  type RouteConfig,
-  index,
-  layout,
-  route,
-} from "@-router/dev/routes";
 
-export default[
-    index("routes/home.tsx")
-]
+// export default[
+//     index("dashboard", "/dashboard/index.tsx"),
+// ] 
