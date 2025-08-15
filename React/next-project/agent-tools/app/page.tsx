@@ -15,7 +15,7 @@ export default function Home() {
         className="m-4"
         size="lg"
         variant="default"
-        onClick={() => router.push("/dashboard")}
+        onClick={() => router.push("/project/")}
       >
         Get Started
       </Button>
