@@ -1,0 +1,22 @@
+{
+  "watch": [
+    "./",
+    "server.js", "src/"
+  ],
+  "ext": "js,json,ts",
+  "ignore": [
+    "node_modules/",
+    "*.test.js",
+    "*.spec.js",
+    ".git/",
+    "docker-compose.yml",
+    "Dockerfile"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "delay": "1000",
+  "verbose": true,
+  "legacyWatch": true,
+  "exec": "node server.js"
+}
